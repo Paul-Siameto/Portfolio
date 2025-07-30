@@ -1,0 +1,49 @@
+.main-content {
+      position: relative;
+      display: inline-block;
+      text-align: left;
+    }
+
+    .overlay-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+      background-color: rgba(0, 0, 0, 0.5); /* optional for contrast */
+      padding: 10px;
+      border-radius: 8px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 7px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+    }
+
+    table {
+      width: 50%;
+      border: 2px solid rgb(167, 165, 165);
+      border-radius: 7px;
+      transition: filter 0.3s ease;
+      background-color: rgb(255, 255, 255);
+    }
+
+    table:hover {
+      filter: brightness(0.8);
+    }
+
+    .img-row td{
+      padding: 0%;
+    }
+
+    tr, td {
+      padding: 7px;
+      text-align: Left;
+    }
+
+    
