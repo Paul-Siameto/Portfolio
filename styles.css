@@ -1,20 +1,14 @@
 .main-content {
       position: relative;
       display: inline-block;
-      text-align: left;
-    }
-
-    .overlay-text {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: white;
-      font-size: 24px;
-      font-weight: bold;
-      background-color: rgba(0, 0, 0, 0.5); /* optional for contrast */
-      padding: 10px;
-      border-radius: 8px;
+      background-color: #8ecae6;
+      text-align: center;
+      font-family: "Open Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: normal;
+      font-style: normal;
+      font-variation-settings: "wdth" 100;
+      padding-left: 0px;
     }
 
     img.main-img {
@@ -56,4 +50,233 @@
       text-align: Left;
     }
 
-    
+/* About section */
+.about-me {
+  padding: 50px 20px;
+  background-color: #f5f7fa;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: auto;
+  gap: 40px;
+}
+
+.about-image img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.about-content {
+  flex: 1;
+}
+
+.about-content h2 {
+  font-size: 2em;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 1.1em;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-image img {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+/*education section*/
+.education-section {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap; /* Ensures they stack on smaller screens */
+  margin-top: 40px;
+  padding-left: 50px;
+}
+
+.education-card {
+  flex: 1 1 300px;
+  background: #ffffff;
+  border-left: 6px solid #0d2d61;
+  padding: 20px 25px;
+  margin: 20px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  max-width: 700px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.education-content h3 {
+  margin-top: 0;
+  color: #0d2d61;
+  font-size: 1.4em;
+}
+
+.education-institute {
+  font-weight: bold;
+  margin-top: 8px;
+  color: #333;
+}
+
+.education-year {
+  font-style: italic;
+  color: #666;
+  margin: 5px 0 10px;
+}
+
+.education-details {
+  color: #444;
+  line-height: 1.6;
+}
+
+/*project Section*/
+  .project-card {
+  width: 400px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h2 {
+  margin-top: 0;
+  font-size: 1.5em;
+}
+
+.card-content p {
+  color: #666;
+  margin: 15px 0;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #217dbb;
+}
+
+/* Contact section */
+.contact-section {
+  background: #f9f9f9;
+  padding: 60px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.contact-section h2 {
+  margin-bottom: 30px;
+  color: #0d2d61;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  resize: vertical;
+}
+
+.submit-btn {
+  background-color: #0d2d61;
+  color: white;
+  padding: 12px 25px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #0b2451;
+}
+
+/* intrests section */
+.interests-card {
+  background: #ffffff;
+  border-left: 6px solid #0d2d61;
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+  max-width: 500px;
+}
+
+.interests-card h3 {
+  margin-top: 0;
+  color: #0d2d61;
+}
+
+.interests-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.interests-list li {
+  padding: 8px 0;
+  font-size: 1.05em;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
