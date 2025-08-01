@@ -17,7 +17,17 @@
       border-radius: 8px;
     }
 
-    img {
+    img.main-img {
+      display: block;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      z-index: -1;
+    }
+
+    .project-imgs {
       width: 100%;
       height: auto;
       border-radius: 7px;
