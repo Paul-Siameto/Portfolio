@@ -7,10 +7,24 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header></header>
+    <header class="header">
+        <div class="logo">My Portfolio</div>
+        <nav class="nav-menu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#project-card">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
     <main class="main-content">
-        <h1>Welcome to My Portfolio</h1>
-        <img class="main-img" src="resources/images/backimage.jpg" alt="coding image">
+        <div class="fullscreen-card">
+            <img src="resources/images/backimage.jpg" alt="Hero Background">
+            <div class="card-overlay">
+                <h1>PAUL SIAMETO</h1>
+                <p>This layout is fully responsive and scrollable on all devices.</p>
+            </div>
+        </div>
         <section class="about-me">
             <div class="about-container">
                 <div class="about-image">
@@ -34,7 +48,7 @@
                     </p>
                 </div>
             </div>
-            <div class="education-card">
+            <div class="education-card sec">
                 <div class="education-content">
                     <h3>Bachelor of Science in Computer Science</h3>
                     <p class="education-institute">University of Example</p>
@@ -49,13 +63,38 @@
 
         <section>
             <h2>My Projects</h2>
-
-            <div class="project-card">
-                <img src="resources/images/backimage.jpg" alt="Project Image">
-                <div class="card-content">
-                    <h2>Portfolio Website</h2>
-                    <p>This is a responsive personal portfolio website showcasing my skills, projects, and contact info.</p>
-                    <a href="#" class="btn">View Project</a>
+            <div class="project">
+                <div class="project-card">
+                    <img src="resources/images/backimage.jpg" alt="Project Image">
+                    <div class="card-content">
+                        <h2>Portfolio Website</h2>
+                        <p>This is a responsive personal portfolio website showcasing my skills, projects, and contact info.</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="resources/images/backimage.jpg" alt="Project Image">
+                    <div class="card-content">
+                        <h2>Portfolio Website</h2>
+                        <p>This is a responsive personal portfolio website showcasing my skills, projects, and contact info.</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="resources/images/backimage.jpg" alt="Project Image">
+                    <div class="card-content">
+                        <h2>Portfolio Website</h2>
+                        <p>This is a responsive personal portfolio website showcasing my skills, projects, and contact info.</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="resources/images/backimage.jpg" alt="Project Image">
+                    <div class="card-content">
+                        <h2>Portfolio Website</h2>
+                        <p>This is a responsive personal portfolio website showcasing my skills, projects, and contact info.</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -96,6 +135,17 @@
   </form>
         </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+        <div class="footer-content">
+    <p>&copy; 2025 Paul Siameto. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+    </footer>
 </body>
 </html>
