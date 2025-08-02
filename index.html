@@ -13,7 +13,7 @@
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#education">Education</a>
-            <a href="#project-card">Projects</a>
+            <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
@@ -23,9 +23,10 @@
             <div class="card-overlay">
                 <h1>PAUL SIAMETO</h1>
                 <p>This layout is fully responsive and scrollable on all devices.</p>
+                <button class="btn"><a href="resources/CV Paul Siameto.pdf" target="_blanks">Download CV</a></button>
             </div>
         </div>
-        <section class="about-me">
+        <section class="about-me" id="about">
             <div class="about-container">
                 <div class="about-image">
                     <img src="resources/images/paul.jpg" alt="About Me Photo">
@@ -36,7 +37,7 @@
                 </div>
             </div>
         </section>
-        <section class="education">
+        <section class="education" id="education">
             <h2>Education</h2>
             <div class="education-card">
                 <div class="education-content">
@@ -74,10 +75,9 @@
                     <p class="education-details"></p>
                 </div>
             </div>
-            <a href="resources/CV Paul Siameto.pdf" target="_blanks">Download CV</a>
         </section>
 
-        <section>
+        <section class="projects" id="projects">
             <h2>My Projects</h2>
             <div class="project">
                 <div class="project-card">
@@ -117,40 +117,51 @@
             </div>
         </section>
 
-        <section>
+        <section class="interests">
             <div class="interests-card">
-  <h3>My Interests</h3>
-  <ul class="interests-list">
-    <li> Web Development</li>
-    <li> UI/UX Design</li>
-    <li> Reading Tech Blogs</li>
-    <li> Gaming</li>
-    <li> Traveling</li>
-  </ul>
-</div>
+                <h3>My Interests</h3>
+                <ul class="interests-list">
+                    <li> Web Development</li>
+                    <li> UI/UX Design</li>
+                    <li> Reading Tech Blogs</li>
+                    <li> Gaming</li>
+                    <li> Traveling</li>
+                </ul>
+            </div>
 
         </section>
 
-        <section>
-            <h2>Contact Me</h2>
-            <form class="contact-form" action="#" method="post">
-    <div class="form-group">
-      <label for="name">Your Name</label>
-      <input type="text" id="name" name="name" required>
-    </div>
+        <section class="contact" id="contact">
+            <div class="contact-info">
+                <h2>Contact Me</h2>
+                <div>
+                    <h3>Call me</h3>
+                    <p>+254 111387596</p>
+                </div>
+                <div>
+                    <h3>Email</h3>
+                    <p>siametopaul2@gmail.com</p>
+            </div>
+            <div class="c-form">
+            <form class="contact-form" action="messages.html" method="post">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
 
-    <div class="form-group">
-      <label for="email">Your Email</label>
-      <input type="email" id="email" name="email" required>
-    </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
 
-    <div class="form-group">
-      <label for="message">Your Message</label>
-      <textarea id="message" name="message" rows="5" required></textarea>
-    </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
 
-    <button type="submit" class="submit-btn">Send Message</button>
-  </form>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+            </div>
         </section>
     </main>
     <footer class="footer">

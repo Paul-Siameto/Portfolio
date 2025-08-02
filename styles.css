@@ -60,7 +60,7 @@
 .main-content {
       position: relative;
       display: inline-block;
-      background-color: #8ecae6;
+      background: linear-gradient(120deg, #aca55a, #c5cbf9, #73c5cc, #70f5ea);
       width: 100%;
       height: 100%;
       text-align: center;
@@ -78,6 +78,32 @@ html, body {
   padding: 0;
   font-family: 'Segoe UI', sans-serif;
 }
+
+.btn {
+      padding: 14px 28px;
+      font-size: 16px;
+      font-weight: bold;
+      color: white;
+      background: linear-gradient(135deg, #00c6ff, #0072ff);
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+      background: linear-gradient(135deg, #0072ff, #00c6ff); /* reverse gradient */
+    }
+
+    @media (max-width: 600px) {
+      .btn {
+        padding: 12px 20px;
+        font-size: 14px;
+      }
+    }
 
 .fullscreen-card {
   position: relative;
@@ -250,9 +276,8 @@ html, body {
 .project{
   display: flex;
   gap: 20px;                
-  
   align-items: center;      
-  padding: 20px;
+  padding: 50px;
 }
   .project-card {
   width: 400px;
@@ -302,16 +327,28 @@ html, body {
 }
 
 /* Contact section */
-.contact-section {
+.contact {
+  display: flex;
+  align-items: center;
   background: #f9f9f9;
   padding: 60px 20px;
   text-align: center;
   font-family: 'Segoe UI', sans-serif;
 }
 
-.contact-section h2 {
-  margin-bottom: 30px;
-  color: #0d2d61;
+.contact-info h2 {
+  font-size: 3.5em;
+  margin-bottom: 20px;
+  color: #2967cb;
+}
+
+.contact-info {
+  flex: 1;
+  align-items: center;
+}
+
+.c-form {
+  flex: 1;
 }
 
 .contact-form {
@@ -356,6 +393,12 @@ html, body {
 }
 
 /* intrests section */
+.interests {
+  background: #025b7b9e;
+  padding: 50px 60px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
 .interests-card {
   background: #ffffff;
   border-left: 6px solid #0d2d61;
