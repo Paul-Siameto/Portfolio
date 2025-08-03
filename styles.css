@@ -124,6 +124,7 @@ html, body {
 }
 
 .card-overlay {
+  gap: 20px;
   position: relative;
   z-index: 2;
   height: 100%;
@@ -188,21 +189,25 @@ html, body {
   height: auto;
   border-radius: 8px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
 }
 
 .about-content {
   flex: 1;
 }
 
+.about-content li {
+  list-style: none;
+}
 .about-content h2 {
   font-size: 2em;
-  color: #1a1a1a;
+  color: #0f0f0f;
   margin-bottom: 20px;
 }
 
 .about-content p {
   font-size: 1.1em;
-  color: #333;
+  color: #2a2a2a;
   line-height: 1.6;
 }
 
@@ -228,6 +233,7 @@ html, body {
   gap: 0px;
   flex-wrap: wrap;
   margin-top: 40px;
+  margin-bottom: 70px;
   padding-left: 20%;
   padding-right: 20%;
 }
@@ -238,11 +244,11 @@ html, body {
 
 .education-card {
   flex: 1 1 300px;
-  background: #c8f6ff;
-  border-left: 6px solid #0d2d61;
+  background: #baedff;
+  border-left: 6px solid #0a2e67;
   padding: 20px 25px;
   margin: 20px 0;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 9px 12px rgba(0, 0, 0, 0.08);
   border-radius: 6px;
   max-width: 1000px;
   max-height: 200px;
@@ -251,7 +257,7 @@ html, body {
 
 .education-content h3 {
   margin-top: 0;
-  color: #0d2d61;
+  color: #061732;
   font-size: 1.4em;
 }
 
@@ -263,12 +269,12 @@ html, body {
 
 .education-year {
   font-style: italic;
-  color: #666;
+  color: #3e3e3e;
   margin: 5px 0 10px;
 }
 
 .education-details {
-  color: #444;
+  color: #3c3b3b;
   line-height: 1.6;
 }
 
@@ -278,6 +284,7 @@ html, body {
   gap: 20px;                
   align-items: center;      
   padding: 20px 0 0 40px;
+  margin-top: 60px;
 }
 
 .projects h2 {
@@ -287,7 +294,7 @@ html, body {
 
   .project-card {
   width: 400px;
-  background-color: #bde8f4;
+  background-color: #baedff;
   border-radius: 12px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -314,14 +321,14 @@ html, body {
 }
 
 .card-content p {
-  color: #666;
+  color: #353535;
   margin: 15px 0;
 }
 
 .btn {
   display: inline-block;
   text-decoration: none;
-  background-color: #3498db;
+  background-color: #53b0ee;
   color: #fff;
   padding: 10px 20px;
   border-radius: 6px;
@@ -330,7 +337,7 @@ html, body {
 }
 
 .btn:hover {
-  background-color: #217dbb;
+  background-color: #195f8d;
 }
 
 /* Contact section */
@@ -348,7 +355,7 @@ html, body {
   flex: 1;
   align-items: center;
   padding: 20px;
-  gap: 20px;
+  gap: 70px;
 }
 
 .contact h2 {
@@ -421,7 +428,7 @@ html, body {
 }
 
 .interests-card {
-  background: #cceef1;
+  background: #baedff;
   border-left: 6px solid #0d2d61;
   padding: 25px;
   padding-left: 30px;
@@ -435,7 +442,7 @@ html, body {
 
 .interests-card h3 {
   margin-top: 0;
-  color: #0d2d61;
+  color: #0a244d;
 }
 
 .interests-list {
@@ -447,7 +454,7 @@ html, body {
 .interests-list li {
   padding: 8px 0;
   font-size: 1.05em;
-  color: #333;
+  color: #282828;
   display: flex;
   align-items: center;
 }
@@ -478,7 +485,6 @@ footer {
   width: 30px;
   height: 30px;
   transition: transform 0.3s;
-  background-color: white;
 }
 
 .footer-content p {
