@@ -60,7 +60,7 @@
 .main-content {
       position: relative;
       display: inline-block;
-      background: linear-gradient(120deg, #aca55a, #c5cbf9, #73c5cc, #70f5ea);
+      background: linear-gradient(120deg, #aca55a, #cfd3f1, #a7d4d8, #b8f9f4);
       width: 100%;
       height: 100%;
       text-align: center;
@@ -167,7 +167,7 @@ html, body {
 .about-me {
   padding: 50px 20px;
   font-family: 'Segoe UI', sans-serif;
-  background-color: #baedff;
+  background-color: #f1f9fc;
 }
 
 .about-me h2 {
@@ -231,13 +231,13 @@ html, body {
     }
 
     .skill-card {
-      background: #fff;
+      background: #dce5ff;
       padding: 20px;
       border-radius: 10px;
       box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
       transition: transform 0.2s ease, box-shadow 0.2s ease;
       font-weight: bold;
-      color: #0d2d61;
+      color: #041024;
     }
 
     .skill-card:hover {
@@ -278,7 +278,7 @@ html, body {
 
 .education-card {
   flex: 1 1 300px;
-  background: #baedff;
+  background: #f1f9fc;
   border-left: 6px solid #0a2e67;
   padding: 20px 25px;
   margin: 20px 0;
@@ -328,7 +328,7 @@ html, body {
 
   .project-card {
   width: 400px;
-  background-color: #baedff;
+  background-color: #f1f9fc;
   border-radius: 12px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -488,7 +488,7 @@ html, body {
 }
 
 .interests-card {
-  background: #baedff;
+  background: #f1f9fc;
   border-left: 6px solid #0d2d61;
   padding: 25px;
   padding-left: 30px;
